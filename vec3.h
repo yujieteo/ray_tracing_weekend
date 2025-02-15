@@ -21,6 +21,9 @@ class vec3 {
 		// operator for --
 		vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); }
 
+		// These are pointers and addressing?
+		double operator[](int i) const { return e[i]; }
+		double& operator[](int i) {return e[i];}
 	};
 
 #endif
