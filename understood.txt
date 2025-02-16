@@ -1,5 +1,7 @@
 Debugging ray tracer: use a nonsquare image, 16:9
 
+Viewport width distinguished between aspect ratio: because real valued of image_height.
+
 Rays as classes: represent parameterised lines with a class.
 
 .h: write a lot of .h utilities and include them in your code so that it becomes cleaner or more parameterised.
