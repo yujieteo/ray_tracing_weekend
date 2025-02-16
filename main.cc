@@ -71,18 +71,22 @@ color ray_color(const ray& r) {
 
 	vec3 unit_direction = unit_vector(r.direction());
 
+	/*
+	// if you want a blue sphere?
+	// This was a cause of a bug, I did not uncomment this code and lost the coloured background.
 	if (hit_sphere(point3(0,0,-1), 0.5, r)) {
 		// try to use curly braces
 		// I wanted a blue sphere.
 		return color(0,0,1);
 	}
+	*/
 
 	auto a  = 0.5 * (unit_direction.y() + 1.0);
 
 	// linear blend or linear combination
 	// in probability this just called a convex combination
-
-	return (1.0 - a) * color(1.0,1.0,1.0) + a*color(0.5,0.7,1.0);
+	// I changed it so that it is pink.
+	return (1.0 - a) * color(1.0,1.0,1.0) + a*color(1.0,0.5,0.7);
 }
 
 int main() {
