@@ -1,4 +1,6 @@
-Decisions, ray pointing in vs pointing out. Normals pointing against the ray, then you will not be able to use the dot product.
+Decision changed against C++: I realised that C++ might be good shooting your entire foot off, but hey it is easy to get started with something difficult with C++ since it is likely that whatever you need is already there and that it is a pretty amorphous language.
+
+ecisions, ray pointing in vs pointing out. Normals pointing against the ray, then you will not be able to use the dot product.
 
 Camera position: negative positions corresponds to in front and behind the camera.
 
