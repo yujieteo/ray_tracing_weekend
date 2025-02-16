@@ -1,3 +1,7 @@
+Decisions, ray pointing in vs pointing out. Normals pointing against the ray, then you will not be able to use the dot product.
+
+Camera position: negative positions corresponds to in front and behind the camera.
+
 Debugging ray tracer: use a nonsquare image, 16:9
 
 Viewport width distinguished between aspect ratio: because real valued of image_height.
