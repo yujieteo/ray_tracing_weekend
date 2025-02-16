@@ -1,0 +1,6 @@
+Vec3 class daydream: what are some of the possibilities one can have with the vec3 class?
+
+PPM: how else can you change this code?
+Can you write a .ppm viewer or converter into .png? Can this be written at the level of a binary function.
+
+Debugging at the start: what are some of the possible bugs that might happen with bugs.

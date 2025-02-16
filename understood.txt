@@ -1,0 +1,7 @@
+Debugging ray tracer: use a nonsquare image, 16:9
+
+Rays as classes: represent parameterised lines with a class.
+
+.h: write a lot of .h utilities and include them in your code so that it becomes cleaner or more parameterised.
+
+vec3 class: when writing a ray tracer, try to read a linear algebra book or a diff geo / functional analysis book and define all sorts of norms you might use. Pretty sure if you get creative in defining headers for use with linear algebra you can write some decent projects.
