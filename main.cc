@@ -23,7 +23,9 @@ int main() {
 	auto aspect_ratio = 16.0 / 9.0;
 
 	// I tried this and I didn't realise how inefficient the .ppm format.
-	int image_width = 2140;
+	// int image_width = 2140;
+
+	int image_width = 400;
 
 	// calculate image height, ensure it is at least 1.
 	// wait this can fail?
